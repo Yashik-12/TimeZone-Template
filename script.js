@@ -20,5 +20,14 @@ window.addEventListener("load", () => {
         })
     });
 
+    /*===== SCROLL REVEAL ANIMATION =====*/
+    const sr = ScrollReveal({
+        origin: 'left',
+        distance: '60px',
+        duration: 2000,
+        delay: 200,
+    });
+
+    sr.reveal('.shop-now-section, .latest-section, .gallery-section, .popular-items-section, .video-section, .blog-section, .pages-section, #contact ', {});
 });
 
